@@ -33,6 +33,7 @@ def work(target, service, ports):
     print(scaner.fastPortScan(target, ports))
 
 def main():
+    # 扫描目标111.230.197.23的8000-9000的端口
     target = '111.230.197.23'
     ports = []
     for p in range(8000, 9001):
