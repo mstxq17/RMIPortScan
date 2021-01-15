@@ -88,7 +88,6 @@ def test():
     pass
 
 def main():
-    startNs()
     startServer()
 
 if __name__ == '__main__':
